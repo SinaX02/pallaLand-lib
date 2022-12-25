@@ -283,7 +283,7 @@ function Library:object(class, properties)
 		tooltipContainer.Size = UDim2.fromOffset(tooltipContainer.TextBounds.X + 16, tooltipContainer.TextBounds.Y + 8)
 
 		local tooltipArrow = tooltipContainer:object("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=4292970642",
+			Image = "http://www.roblox.com/asset/?id=11919779160",
 			Theme = {ImageColor3 = {"Main", 10}},
 			AnchorPoint = Vector2.new(0.5, 0),
 			Rotation = 180,
@@ -1015,13 +1015,6 @@ function Library:notification(options)
 		TextYAlignment = Enum.TextYAlignment.Top,
 		TextTransparency = 1
 	})
-
-	game.StarterGui:SetCore("SendNotification", {
-        Title = "pallaLand"; 
-        Text = "<<<<<<LAUNCHED>>>>>>"; 
-        Icon = "rbxassetid://9195414038"; 
-        Duration = 10; 
-    })
 
 	text:tween({Size = UDim2.new(1, 0, 0, text.TextBounds.Y)})
 
