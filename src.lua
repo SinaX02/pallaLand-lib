@@ -917,8 +917,8 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "SinaXFR", Description = "UI Library Developer", Discord = "SinaXFR#0236", V3rmillion = "SinaXFR"}
+	creditsTab:credit{Name = "Wax", Description = "Scripts Developer", Discord = ".WAX#0001", V3rmillion = "Wax"}
 
 	return mt
 end
@@ -1015,6 +1015,13 @@ function Library:notification(options)
 		TextYAlignment = Enum.TextYAlignment.Top,
 		TextTransparency = 1
 	})
+
+	game.StarterGui:SetCore("SendNotification", {
+        Title = "pallaLand"; 
+        Text = "<<<<<<LAUNCHED>>>>>>"; 
+        Icon = "rbxassetid://9195414038"; 
+        Duration = 10; 
+    })
 
 	text:tween({Size = UDim2.new(1, 0, 0, text.TextBounds.Y)})
 
