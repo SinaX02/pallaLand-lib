@@ -262,7 +262,7 @@ function Library:object(class, properties)
 		tooltipContainer.Size = UDim2.fromOffset(tooltipContainer.TextBounds.X + 16, tooltipContainer.TextBounds.Y + 8)
 
 		local tooltipArrow = tooltipContainer:object("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=4292970642",
+			Image = "http://www.roblox.com/asset/?id=11919775487",
 			Theme = {ImageColor3 = {"Main", 10}},
 			AnchorPoint = Vector2.new(0.5, 0),
 			Rotation = 180,
@@ -410,7 +410,7 @@ function Library:create(options)
 
 	options = self:set_defaults({
 		Name = "pallaLand",
-		Size = UDim2.fromOffset(600, 400),
+		Size = UDim2.fromOffset(700, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://github.com/SinaX02/pallaLand-lib"
 	}, options)
