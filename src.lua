@@ -35,7 +35,7 @@ local Library = {
 		Aqua = {
 			Main = Color3.fromRGB(19, 21, 21),
 			Secondary = Color3.fromRGB(65, 63, 63),
-			Tertiary = Color3.fromRGB(51, 153, 137),
+			Tertiary = Color3.fromRGB(46, 160, 143),
 
 			StrongText = Color3.fromHSV(0, 0, 1),        
 			WeakText = Color3.fromHSV(0, 0, 172/255)
@@ -43,7 +43,15 @@ local Library = {
 		Vaporwave = {
 			Main = Color3.fromRGB(19, 21, 21),
 			Secondary = Color3.fromRGB(65, 63, 63),
-			Tertiary = Color3.fromRGB(153, 51, 51),
+			Tertiary = Color3.fromRGB(160, 36, 36),
+
+			StrongText = Color3.fromHSV(0, 0, 1),        
+			WeakText = Color3.fromHSV(0, 0, 172/255)
+		},
+		Chakra = {
+			Main = Color3.fromRGB(19, 21, 21),
+			Secondary = Color3.fromRGB(65, 63, 63),
+			Tertiary = Color3.fromRGB(145, 44, 170),
 
 			StrongText = Color3.fromHSV(0, 0, 1),        
 			WeakText = Color3.fromHSV(0, 0, 172/255)
