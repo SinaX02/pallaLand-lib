@@ -262,7 +262,7 @@ function Library:object(class, properties)
 		tooltipContainer.Size = UDim2.fromOffset(tooltipContainer.TextBounds.X + 16, tooltipContainer.TextBounds.Y + 8)
 
 		local tooltipArrow = tooltipContainer:object("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=11919775487",
+			Image = "http://www.roblox.com/asset/?id=4292970642",
 			Theme = {ImageColor3 = {"Main", 10}},
 			AnchorPoint = Vector2.new(0.5, 0),
 			Rotation = 180,
@@ -666,7 +666,7 @@ function Library:create(options)
 		BackgroundTransparency = 1,
 		Position = UDim2.new(0, 5, 0.5, 0),
 		Size = UDim2.new(0, 15, 0, 15),
-		Image = "http://www.roblox.com/asset/?id=8569322835",
+		Image = "http://www.roblox.com/asset/?id=11919775487",
 		Theme = {ImageColor3 = "StrongText"}
 	})
 
