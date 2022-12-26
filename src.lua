@@ -1,4 +1,4 @@
-local TweenService = game:GetService("TweenService")
+local TweenService = game:GetService("TweenService")   --pallaLand
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
